@@ -1,0 +1,106 @@
+.main-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: linear-gradient(45deg, #FF3333, #FF6666, #FF9999);
+}
+
+.main-header img {
+  margin-bottom: 25px;
+}
+
+.main-header__buy-product {
+  text-align: center;
+  font-size: 24px;
+}
+
+.main-header__buy-product a {
+  color: white;
+}
+
+.main-header__buy-product a:hover {
+  color: yellow;
+}
+
+.main-header__buy-product a:active {
+  color: white;
+}
+
+.main-page {
+  background-color: white;
+}
+
+.advantages__title {
+  text-align: center;
+}
+
+.advantages__list {
+  font-size: 15px;
+}
+
+.advantages__list li {
+  margin-left: -5px;
+  margin-bottom: 5px;
+}
+
+.advantages__list--why-us {
+  margin-bottom: 25px;
+}
+
+.how-to-order__title {
+  text-align: center;
+}
+
+.how-to-order__list {
+  margin-bottom: 35px;
+  font-size: 15px;
+}
+
+.how-to-order__list li {
+  margin-left: -5px;
+  margin-bottom: 5px;
+}
+
+.how-to-order__image {
+  margin: 0 auto 30px auto;
+  width: 150px;
+  height: auto;
+}
+
+.buy-now {
+  text-align: center;
+}
+
+.buy-now__title {
+  margin-bottom: 20px;
+}
+
+.click-to-order input {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  width: 280px;
+  height: 35px;
+  border-radius: 5px;
+  font-family: "ComfortaaRegular";
+}
+
+.click-to-order input:nth-last-of-type(2) {
+  margin-bottom: 15px;
+}
+
+.click-to-order input:last-of-type {
+  padding: 10px 0;
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: #FF0066;
+  border: 0;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+.page-footer {
+  padding: 20px 0;
+  background: linear-gradient(45deg, #FF3333, #FF6666, #FF9999);
+  color: white;
+  text-align: center;
+}
