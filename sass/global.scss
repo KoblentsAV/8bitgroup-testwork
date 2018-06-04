@@ -5,6 +5,12 @@ body {
   box-shadow: 0 0 25px 0 rgba(0,1,1,0.17);
   font-family: "ComfortaaRegular", "Arial", sans-serif;
   font-size: 18px;
+  @media (min-width: 660px) {
+    width: 660px;
+  }
+  @media (min-width: 1000px) {
+    width: 1000px;
+  }
 }
 
 p {
@@ -15,6 +21,18 @@ p {
 img {
   width: 100%;
   height: auto;
+  @media (min-width: 660px) {
+    width: auto;
+  }
+}
+
+hr {
+  height: 5px;
+  background: linear-gradient(45deg, #FF3333, #FF6666, #FF9999);
+  border: none;
+  @media (min-width: 1000px) {
+    margin-bottom: 70px;
+  }
 }
 
 .container {
